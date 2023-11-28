@@ -1,4 +1,4 @@
 SELECT *
 FROM {{ref('real_estate_info_clean')}}
-JOIN {{ref('staging_notary')}} 
+JOIN {{ref('2021_notary')}} 
 USING (municipality_code)
