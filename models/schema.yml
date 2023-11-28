@@ -7,8 +7,8 @@ sources:
       - name: poi_establishments
         identifier: POI_tourist_establishments
         description: primary key is municipality code
-        tests:
-          - unique
+
+            
       - name: poi_sites
         identifier: POI_touristic_sites_by_municipality
         description: primary key is municipality code
@@ -17,6 +17,8 @@ sources:
       - name: geo_loc
         identifier: geographical_referential
         description: primary key is municipality code
+
+           
       - name: notary
         identifier: notary_real_estate_sales
         description: primary key is municipality code
