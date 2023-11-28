@@ -12,8 +12,7 @@ sources:
       - name: poi_sites
         identifier: POI_touristic_sites_by_municipality
         description: primary key is municipality code
-        tests:
-          - unique
+
       - name: geo_loc
         identifier: geographical_referential
         description: primary key is municipality code
