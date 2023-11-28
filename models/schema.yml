@@ -1,0 +1,50 @@
+version: 2
+sources:
+  - name: Prello
+    schema: Prello2023
+    description: main project raw data
+    tables:
+      - name: poi_establishments
+        identifier: POI_tourist_establishments
+        description: primary key is municipality code
+        tests:
+          - unique
+      - name: poi_sites
+        identifier: POI_touristic_sites_by_municipality
+        description: primary key is municipality code
+        tests:
+          - unique
+      - name: geo_loc
+        identifier: geographical_referential
+        description: primary key is municipality code
+      - name: notary
+        identifier: notary_real_estate_sales
+        description: primary key is municipality code
+        tests:
+          - unique
+          - not_null
+      - name: housing_stock
+        identifier: housing_stock
+        description: primary key is municipality code
+      - name: real_estate_info_by_municipality
+        identifier: real_estate_info_by_municipality
+        description: primary key is municipality code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
