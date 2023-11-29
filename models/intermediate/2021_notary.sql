@@ -1,3 +1,3 @@
 select *
-FROM {{ref('staging_notary')}}
+FROM {{ref('inter_notary')}}
 where sales_dates = 2021
