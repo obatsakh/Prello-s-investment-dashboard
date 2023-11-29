@@ -1,4 +1,4 @@
-SELECT
+SELECT 
     municipality_code,
     EXTRACT(year from CAST(sales_date as date)) as sales_dates,
     ROUND(avg(sales_amount),2) as avg_sales_amount,
