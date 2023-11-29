@@ -23,7 +23,9 @@ sources:
       - name: real_estate_info_by_municipality
         identifier: real_estate_info_by_municipality
         description: primary key is municipality code
-
+      - name: train_station
+        identifier: train_station
+        description: list of train station
 
 
 
