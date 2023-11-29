@@ -6,7 +6,7 @@ SELECT
     taux_de_chomage_au_t4_en as unemployment_rate, 
     taux_de_pauvrete_en as pauverty_rate, 
     nombre_de_logements as nb_housing, 
-    nombre_de_residences_principales as nb_primary_residance, 
+    nombre_de_residences_principales as nb_primary_residance
 FROM {{ref('stg_Prello__Housing')}}
 WHERE annee_publication = 2021 
 AND nom_departement IS NOT NULL 
