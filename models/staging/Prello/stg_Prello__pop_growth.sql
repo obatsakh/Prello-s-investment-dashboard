@@ -10,7 +10,7 @@ renamed as (
 
     select
         codgeo,
-        popu_growth_2020_2010
+        double_field_1
 
     from source
 
