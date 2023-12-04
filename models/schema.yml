@@ -35,4 +35,13 @@ sources:
       - name : population 
         identifier: population_by_municipality
         description: population by municipality 
+      - name: tourism_scoring
+        identifier: score_tourism_normalized
+        description: data table with diversity score normalized
+      - name: tourism_scoring_sq
+        identifier: score_tourism_normalized_sq
+        description: data table with diversity score normalized and nb sites squared
+      - name: tgv_train_station
+        identifier: tgv_train_station
+        description: data table with dinfo for TGV train station only
 
