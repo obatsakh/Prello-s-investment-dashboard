@@ -29,3 +29,10 @@ sources:
       - name: Housing
         identifier: Housing_tables_2018_2022
         description: list of housing market
+      - name : averge_salary
+        identifier : average_salary_by_municipality
+        description: average salary by municipality 
+      - name : population 
+        identifier: population_by_municipality
+        description: population by municipality 
+
