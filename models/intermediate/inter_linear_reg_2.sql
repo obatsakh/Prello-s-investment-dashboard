@@ -1,5 +1,5 @@
 WITH table_1 as (select CAST (codgeo as STRING) as municipality_code, med14 as avg_salary 
-from {{ref('stg_Prello__avg_salary')}} as asalary) 
+from {{ref('stg_Prello__avg_salary')}}) 
 
 SELECT *
 FROM table_1 
