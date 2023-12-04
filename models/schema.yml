@@ -44,7 +44,7 @@ sources:
       - name: tgv_train_station
         identifier: tgv_train_station
         description: data table with dinfo for TGV train station only
-      - name: avg_salary
+      - name: avg_salary_2014
         identifier : avg_salary_2014
         description: average salary in france by municipality 2014
       - name: pop_growth
