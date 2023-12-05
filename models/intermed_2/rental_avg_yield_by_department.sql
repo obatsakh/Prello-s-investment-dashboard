@@ -1,3 +1,5 @@
+{{ config(materialized='table') }}
+
 Select 
     department_name,
     count(municipality_code) as nb_municipality_code,
