@@ -1,3 +1,5 @@
+{{ config(materialized='table')}}
+
 SELECT 
     municipality_code, 
     unemployment_rate, 
