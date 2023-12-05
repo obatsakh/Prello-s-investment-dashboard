@@ -32,9 +32,6 @@ sources:
       - name : averge_salary
         identifier : average_salary_by_municipality
         description: average salary by municipality 
-      - name : population 
-        identifier: population_by_municipality
-        description: population by municipality 
       - name: tourism_scoring
         identifier: score_tourism_normalized
         description: data table with diversity score normalized
