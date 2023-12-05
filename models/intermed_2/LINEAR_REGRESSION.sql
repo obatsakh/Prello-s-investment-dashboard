@@ -7,6 +7,6 @@ SELECT
     intensite_tension_immo, 
     avg_price_m2
 FROM {{ref('linear_regression_4')}}
-JOIN {{ref('2021_notary')}}
+JOIN {{ref('inter_notary')}}
 USING (municipality_code)
 ORDER BY avg_salary 
