@@ -53,5 +53,9 @@ sources:
       - name: unemployment_rate
         identifier : unemployment_rate
         description: unemployment rate 
+
+      - name: trainstation_cat
+        identifier : train_station_user_nb
+        description: categorization of the train station by their territory cover and usage nb
         
 
