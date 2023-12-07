@@ -16,4 +16,3 @@ Select
 from table_1
 group by (department_name)
 order by avg_yield asc
- 
