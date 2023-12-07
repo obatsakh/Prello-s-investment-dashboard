@@ -39,5 +39,6 @@ sources:
         identifier: tgv_train_station
         description: data table with dinfo for TGV train station only
       - name: trainstation_cat
-        identifier : train_station_user_nb
+        identifier : train_station_cat_nb
         description: categorization of the train station by their territory cover and usage nb
+
