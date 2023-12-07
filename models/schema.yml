@@ -29,12 +29,6 @@ sources:
       - name: Housing
         identifier: Housing_tables_2018_2022
         description: list of housing market
-      - name : averge_salary
-        identifier : average_salary_by_municipality
-        description: average salary by municipality 
-      - name : population 
-        identifier: population_by_municipality
-        description: population by municipality 
       - name: tourism_scoring
         identifier: score_tourism_normalized
         description: data table with diversity score normalized
@@ -44,18 +38,7 @@ sources:
       - name: tgv_train_station
         identifier: tgv_train_station
         description: data table with dinfo for TGV train station only
-      - name: avg_salary
-        identifier : avg_salary_2014
-        description: average salary in france by municipality 2014
-      - name: pop_growth
-        identifier : pop_growth_bis
-        description: population growth over 10 years, from 2010 until 2020 
-      - name: unemployment_rate
-        identifier : unemployment_rate
-        description: unemployment rate 
-
       - name: trainstation_cat
         identifier : train_station_cat_nb
         description: categorization of the train station by their territory cover and usage nb
-        
 
